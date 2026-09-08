@@ -11,6 +11,10 @@ app.get('/2', (req, res) => {
   res.send('Hello World from programmer 2');
 });
 
+app.get('/1', (req, res) => {
+  res.send('Hello World from programmer 1');
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
